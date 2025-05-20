@@ -10,7 +10,10 @@
     --color-text: 0deg 0% 100%;
   }
   img {
-    @apply rounded object-cover;
+    @apply rounded h-full object-cover;
+  }
+  figure {
+    @apply h-full;
   }
 }
 
